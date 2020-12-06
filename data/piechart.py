@@ -2,9 +2,12 @@ import matplotlib.pyplot as plt
 
 #generate a pie chart with our Olympic data
 
-values = [386, 239]
-colors = ['green', 'gold']
-labels = ['men', 'women']
+values = [214, 246]
+colors = ['red', 'blue']
+labels = ['Hockey: 214 Medals', 'Other Sports: 246'] 
+
 plt.pie(values, labels=labels, colors=colors)
+
+plt.title("Hockey Prevails!", pad="20")
 
 plt.show()
