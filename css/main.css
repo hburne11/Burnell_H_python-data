@@ -1,0 +1,67 @@
+
+div,p,body,section,article,nav,h1,h3,h4 { 
+margin-top: 20px;
+margin-bottom: 20px; 
+background-color: #ff9595;
+font-family: "Verdana", Helvetica, Arial, sans-serif;
+color: #efefef;
+} 
+
+h2
+{
+	text-decoration: : underline;
+	color: #0200A9;
+}
+
+img { 
+border: none; 
+margin: 0; 
+padding: 0; 
+}
+
+/*html selectors*/
+
+/*a:link is for not visited, a:visited is for visited, and just a applies to both.*/
+/*a will also style anchor links*/
+
+a:link, a:visited { 
+text-decoration:none; 
+}
+
+a:hover, a:active { 
+text-decoration:none; 
+ }
+
+/*hide elements from browser but show for doc outline*/
+
+.hidden
+{
+  display: none;
+}
+
+.mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+.logo
+{
+	width: 200px:
+	margin-top: 10px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+
+.hero
+{
+	height: 384px;
+	width: 980px;
+	background: url(../images/home_header.jpg) no-repeat bottom;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+}
+
